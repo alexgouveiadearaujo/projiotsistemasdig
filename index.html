@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PROJETOS DIG</title>
+
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="style1.css">
+
+    <script src="https://kit.fontawesome.com/d9c47ceecc.js" crossorigin="anonymous"></script>
+
+
+
+  </head>
+  <body>
+ <h1>Projetos de Sistemas Digitais</h1>
+ <p class="subtexto">desenvolvimento de solução IOT para automação de sala</p>
+ <br>
+<div class="grid">
+
+<!--UMIDADE-->    
+<div class="umidade caixa">
+    <span id="atualUmidade" ></span>
+    <p>umidade</p>
+</div>
+
+<!--LUMINOSIDADE-->  
+<div class="luminosidade caixa">
+    <span id="atualLuminosidade"></span>
+    <p>luminosidade</p>
+</div>
+
+<!--TEMPERATURA-->  
+<div class="temperatura caixa">
+    <span id="atualTemperatura"></span>
+    <p>temperatura</p>
+</div>
+
+<!--PRESENCA-->  
+<div class="presenca caixa">
+   <!--<i id="currentPresence" class="material-icons statistic"></i> -->
+    <i class="fas fa-user-alt" id="atualPresenca"></i>
+    <p>presenca</p>
+</div>
+
+<!--DISTANCIA-->  
+<div class="distancia caixa">
+    <span id="atualDistancia"></span>
+
+    <p>distancia</p>
+</div>
+
+<!--PORTA-->  
+<div class="porta caixa">
+    <!--   <i id="currentPorta" class="material-icons statistic">crop_portrait</i> -->  
+
+    <i class="fas fa-door-closed" id="atualPorta"></i>
+    <p>porta</p>
+</div>
+    
+
+
+<!--SET_LUMINOSIDADE-->  
+<div class="setLuminosidade caixa">
+   <!-- <i id="currentLamp" class="material-icons statistic">wb_sunny</i> -->
+    <i class="fas fa-sun" id="estadoSetLuminosidade"></i>
+    <p>set_luminosidade</p>
+    <button id="botaoLuminosidade">  ON/OFF</button>
+</div>
+
+<!--SET_AR-->  
+
+<div class="setAr caixa">
+    
+     <i class="fas fa-wind" id="estadoSetAr"></i>
+     <p>set_ar</p>
+     <button id="botaoAr">ON/OFF</button>
+ </div>
+
+<!--SET_MULTIMIDIA-->  
+ 
+ <div class="setMultimidia caixa">
+    
+    <i class="fas fa-tv" id="estadoSetMultimidia"></i>
+    <p>set_multimidia</p>
+    <button id="botaoMultimidia">ON/OFF</button>
+</div>
+
+<!--SET_PORTA-->
+<div class="setPorta caixa">
+    
+    <i class="fas fa-door-closed" id="estadoSetPorta"></i>
+    <p>set_porta</p>
+    <button id="botaoPorta">ON/OFF</button>
+</div>
+
+</div> <!--fimgrid-->
+
+  </body>
+
+<!--
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+-->
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script src="script1.js"></script>
+</html>

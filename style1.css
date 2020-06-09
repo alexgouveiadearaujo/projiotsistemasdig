@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.subtexto{
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+
+
+.porta,
+.presenca,
+.distancia,
+.temperatura,
+.luminosidade,
+.umidade{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(10, 204, 52);
+    
+}
+
+.setAr,
+.setPorta,
+.setMultimidia,
+.setLuminosidade{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    text-align: center;
+    font-size: 24px;
+    background-color:  rgb(10, 204, 52);
+}
+
+.caixa{
+    border-radius: 10%;
+    transition: transform 1s, box-shadow 1s;
+}
+
+.caixa:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(250, 250, 250, .5);
+}
+
+.setAr button,
+.setPorta button,
+.setMultimidia button,
+.setLuminosidade button{
+    font-size: 15px;
+    background-color:white;
+    
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    justify-content: center;
+    gap: 10px;
+}
+
+
